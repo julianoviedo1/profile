@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 227, 204);
+}
+h1 {
+    font-family: 'Galada', cursive;
+    color: rgb(105, 82, 38);
+}
+h2 {
+    color:rgb(141, 91, 17) ;
+}
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+.card {
+    background-color: rgb(241, 241, 241);
+    border: white;
+    border-radius: 10px;
+    width: 500px;   /* This sets the width */
+    margin: 20px auto; /* This automatically sets left/right margins */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgb(150,150,150) ;
+    border: 1px solid lightgrey;
+}
+#button {
+    background-color: #74673f; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+li {
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 30px;
+    text-align: center;
+}
+li a {
+    color: rgb(150,150,150);
+}
+a:hover {
+    color: rgb(100,100,100);
+}
+#button:hover{
+    color: white;
+    background-color: #ccb675
+}
+footer {
+    color: rgb(100,100,100);
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+.container {
+  width: 700px;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+.container {
+  width: 500px;
+}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+.container {
+  width: 300px;
+}
+}
