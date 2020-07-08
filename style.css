@@ -14,7 +14,10 @@ h2 {
 }
 img {
     width: 100px;
+    height: 100px;
     border-radius: 50%;
+    background-color: black;
+    object-fit: cover;
 }
 .card {
     background-color: rgb(241, 241, 241);
